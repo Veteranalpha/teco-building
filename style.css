@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+.glass {
+  width: 100%;
+  background-image: url(walfare.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+}
+.sub {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+}
+.h-40 {
+  max-height: 40vh;
+}
+.pointer {
+  cursor: pointer;
+}
+.pointer:hover {
+  filter: blur(1px);
+}
+.w-50vh {
+  min-width: 50vh;
+}
+
+.BLACK {
+  background-color: black;
+}
+.BLACK:hover {
+  filter: blur(0.5px);
+  transition: 1s all;
+}
